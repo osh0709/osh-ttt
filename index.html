@@ -1,0 +1,102 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tic Tac Toe</title>
+
+        <!--CSS link-->
+        <link rel = "stylesheet" href = "./TicTacToe.css">
+
+        <!--Link to Google Font Nunito Sans-->
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+
+
+    </head>
+
+
+    <body>
+        <div id = "title" class = "main-title">
+            <!--Tic Tac Toe-->
+            <h1> Tic Tac Toe</h1>
+
+        </div>
+
+        <!--Grid of 9 boxes-->
+
+        <div id = "tic-tac-toe">
+
+            <div id = "grids" class = "boxes">
+
+                <div id = "first-row-one" class = "empty-box"></div>
+               
+                <div id = "first-row-two" class = "empty-box"></div>
+               
+                <div id = "first-row-three" class = "empty-box"></div>
+                
+                <div id = "second-row-one" class = "empty-box"></div>
+
+                <div id = "second-row-two" class = "empty-box"></div>
+
+                <div id = "second-row-three" class = "empty-box"></div>               
+
+                <div id = "third-row-one" class = "empty-box"></div>
+
+                <div id = "third-row-two" class = "empty-box"></div>
+
+                <div id = "third-row-three" class = "empty-box"></div>                   
+       
+            </div>    
+
+            <!--Win or Lose Status-->
+
+            <div id = "status">
+
+
+            </div>
+
+        </div>
+
+            <!--Player's Score-->
+
+            <div id = "scores">
+
+                <div>
+                    <p>
+                        Player X — <span id = "player-x-score" class = "players-scores" ></span>
+                    </p>
+                </div> 
+                
+                <div>
+                    <p>
+                        Player O — <span id = "player-o-score" class = "players-scores" ></span>
+                    </p>
+                </div>
+
+            </div>
+
+        <!--Buttons for Play again and Rematch-->
+
+            <div id = "buttons">
+
+                <div class = "play-again-button">
+
+                    <button id = "play-again"> Play Again </button>
+
+                 </div>
+
+                 <div class = "rematch-button">
+
+                    <button id = "rematch"> Reset Game </button>
+
+                 </div>
+
+            </div>
+
+        <!--JS link-->
+        <script src = "./TicTacToe.js"></script>
+        
+    </body>
+
+</html>

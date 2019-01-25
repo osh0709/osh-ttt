@@ -1,0 +1,108 @@
+body{
+    background-color:#ffcccc;
+    font-family: "Avenir","Nunito Sans", sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Grids of boxes */
+
+#grids{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.empty-box{
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    flex: 0 0 26%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #1a53ff;
+    
+}
+
+/* Text */
+
+h1{
+    font-family: "Avenir","Nunito Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color:  #1a53ff ;
+    text-align: center;
+}
+
+h2{
+    font-family: "Avenir","Nunito Sans", sans-serif;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:  #1a53ff ;
+    text-align: center;
+}
+
+h3{
+    font-family: "Avenir","Nunito Sans", sans-serif;
+    font-weight: 800;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:  #1a53ff ;
+    text-align: center;
+}
+
+p{
+    margin-top: 20px;
+    font-family: "Avenir","Nunito Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:  #1a53ff ;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+/* Buttons */
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px;
+}
+
+#play-again, #rematch{
+    background-color: #1a53ff;
+    color: #ffffff;
+    font-family: "Avenir","Nunito Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
